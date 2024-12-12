@@ -1,13 +1,12 @@
 import './App.css';
 import Navbar from './components/Navbar';
+import Welcome from './components/Welcome';
 
 function App() {
   return (
     <div>
       <Navbar />
-      <section id="home" className="h-screen flex items-center justify-center bg-gray-100">
-        <h2 className="text-4xl">Welcome to My Portfolio</h2>
-      </section>
+      <Welcome />
       <section id="projects" className="h-screen flex items-center justify-center bg-gray-200">
         <h2 className="text-4xl">Projects</h2>
       </section>
