@@ -9,10 +9,10 @@ const Welcome: React.FC = () => {
         <img
           src="/assets/jim-macur-headshot.jpeg"
           alt="Jim Macur"
-          className="max-w-[300px] h-auto mx-auto rounded-full shadow-lg mb-6"
+          className="max-w-[300px] h-auto mx-auto rounded-full shadow-lg mb- animate-fadeIn"
         />
-        <h1 className="text-5xl font-bold mb-4 text-gray-800">Hi, I'm Jim Macur!</h1>
-        <div className="flex justify-center space-x-8 mt-6 pb-5" >
+        <h1 className="text-5xl font-bold mb-4 text-gray-800 pt-2 animate-fadeIn delay-200">Hi, I'm Jim Macur!</h1>
+        <div className="flex justify-center space-x-8 mt-6 pb-5 animate-fadeIn delay-400" >
           <a href="https://github.com/jimmacur" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-300">
             <FaGithub size={50} />
           </a>
@@ -20,7 +20,7 @@ const Welcome: React.FC = () => {
             <FaLinkedin size={50} />
           </a>
         </div>
-        <p className="text-3xl text-gray-600 max-w-2xl mx-auto mb-6">
+        <p className="text-3xl text-gray-600 max-w-2xl mx-auto mb-6 pb-1 animate-fadeIn delay-800">
           <Typewriter
             options={{
               strings: [
@@ -38,7 +38,7 @@ const Welcome: React.FC = () => {
         </p>
         <a
           href="#projects"
-          className="bg-blue-500 text-white px-6 py-3 rounded-full shadow-md hover:bg-blue-600 transition duration-300"
+          className="bg-blue-500 text-white px-6 py-3 rounded-full shadow-md hover:bg-blue-600 transition duration-300 animate-fadeIn delay-1000"
         >
           See My Projects
         </a>
