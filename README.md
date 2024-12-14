@@ -22,7 +22,7 @@ Welcome to the repository for **Jim Macur's Professional Portfolio**! This site 
 ## Live Site
 
 Check out the live version of the portfolio here:  
-[**Jim Macur's Portfolio**](https://your-portfolio-site.com)
+[**Jim Macur's Portfolio**](https://jim-macur-portfolio.vercel.app/)
 
 ---
 

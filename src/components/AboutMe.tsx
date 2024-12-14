@@ -8,10 +8,10 @@ const AboutMe: React.FC = () => {
         <h2 id="about-me-heading" className="text-4xl font-extrabold mb-12 text-center text-gray-800">About Me</h2>
 
         <p className="text-xl text-gray-700 leading-relaxed mb-10">
-          Hi, I'm <span className="font-semibold text-blue-600">Jim Macur</span>, a passionate fullstack developer with a background in teaching and a love for solving complex problems. 
-          After years of teaching and leadership, I transitioned into software development, where I apply my collaborative mindset 
-          and problem-solving skills to create accessible and engaging applications. I'm always eager to learn new technologies 
-          and improve my craft.
+            Hi, I’m <span className="font-semibold text-blue-600">Jim Macur</span>, a passionate fullstack developer with a background in teaching and a love for solving complex problems. After years of teaching and leadership, I transitioned into software development, where I apply my collaborative mindset and problem-solving skills to create accessible and engaging applications. I’m always eager to learn new technologies and improve my craft.
+            <br />       
+            <br />       
+            Beyond coding, I’ve been happily married to my amazing wife for 20 years, and we have two wonderful teenage children. Together, we love traveling, hiking, and sharing laughs around the dinner table. These moments of connection and adventure fuel my creativity and remind me of the importance of balance and joy in life.
         </p>
 
         <div className="flex justify-center mb-12">
@@ -46,7 +46,7 @@ const AboutMe: React.FC = () => {
             </h3>
             <ul className="text-gray-600 space-y-3" aria-label="List of personal highlights">
               <li>🎸 <span className="font-medium">Guitarist</span></li>
-              <li>🧘‍♂️ <span className="font-medium">Meditation Enthusiast</span></li>
+              <li>🧘‍♂️ <span className="font-medium">Meditation Practitioner</span></li>
               <li>🧗‍♂️ <span className="font-medium">Rock Climber</span></li>
               <li>♟️ <span className="font-medium">Chess & Strategy Game Fan</span></li>
             </ul>
