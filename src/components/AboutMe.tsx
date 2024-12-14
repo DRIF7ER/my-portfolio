@@ -7,7 +7,7 @@ const AboutMe: React.FC = () => {
       <div className="max-w-5xl mx-auto text-center">
         <h2 className="text-4xl font-extrabold mb-8 text-gray-800">About Me</h2>
 
-        <p className="text-lg text-gray-700 leading-relaxed mb-10">
+        <p className="text-xl text-gray-700 leading-relaxed mb-10">
           Hi, I'm <span className="font-semibold text-blue-600">Jim Macur</span>, a passionate fullstack developer with a background in teaching and a love for solving complex problems. 
           After years of teaching and leadership, I transitioned into software development, where I apply my collaborative mindset 
           and problem-solving skills to create accessible and engaging applications. I'm always eager to learn new technologies 

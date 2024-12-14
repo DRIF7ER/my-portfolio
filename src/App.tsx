@@ -5,6 +5,7 @@ import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Education from './components/Education';
 import AboutMe from './components/AboutMe';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -15,9 +16,7 @@ function App() {
       <Skills />
       <Education />
       <AboutMe />
-      <section id="contact" className="h-screen flex items-center justify-center bg-gray-100">
-        <h2 className="text-4xl">Contact</h2>
-      </section>
+      <Contact />
     </div>
   );
 }
