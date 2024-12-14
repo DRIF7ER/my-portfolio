@@ -12,7 +12,9 @@ const Navbar: React.FC = () => {
             <a href="#home" className="text-white hover:text-blue-700">Home</a>
             <a href="#projects" className="text-white hover:text-blue-700">Projects</a>
             <a href="#skills" className="text-white hover:text-blue-700">Skills</a>
-            <a href="#experience" className="text-white hover:text-blue-700">Experience</a>
+            {/* <a href="#experience" className="text-white hover:text-blue-700">Experience</a> */}
+            <a href="#education" className="text-white hover:text-blue-700">Education</a>
+            <a href="#aboutMe" className="text-white hover:text-blue-700">About Me</a>
             <a href="#contact" className="text-white hover:text-blue-700">Contact</a>
           </div>
         </div>
