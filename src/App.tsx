@@ -3,6 +3,10 @@ import Navbar from './components/Navbar';
 import Welcome from './components/Welcome';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
+import Education from './components/Education';
+import AboutMe from './components/AboutMe';
+import Contact from './components/Contact';
+import BackToTop from './components/BackToTop';
 
 function App() {
   return (
@@ -11,12 +15,10 @@ function App() {
       <Welcome />
       <Projects />
       <Skills />
-      <section id="experience" className="h-screen flex items-center justify-center bg-gray-200">
-        <h2 className="text-4xl">Experience</h2>
-      </section>
-      <section id="contact" className="h-screen flex items-center justify-center bg-gray-100">
-        <h2 className="text-4xl">Contact</h2>
-      </section>
+      <Education />
+      <AboutMe />
+      <Contact />
+      <BackToTop />
     </div>
   );
 }

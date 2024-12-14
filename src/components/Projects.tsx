@@ -6,11 +6,20 @@ const Projects: React.FC = () => {
     {
       name: "Down the Rabbit Hole",
       imageUrl: "/assets/main-play.gif",
-      techStack: ["React", "CSS", "Cypress", "Rails", "REST API", "RSpec", "SimpleCov"],
+      techStack: ["React", "CSS", "Cypress", "Rails", "REST API", "RSpec", "SimpleCov", "ARIA"],
       description: "An educational (k-5) application to explore food webs within national parks and their ecosystems.",
       contributions: "Created the concept of the application; led a team of 5 developers; built the frontend using React; implemented dynamic modals and the favorite feature.",
       liveLink: "https://down-the-rabbit-hole.netlify.app/",
       githubLink: "https://github.com/Down-the-Rabbit-Holes",
+    },
+    {
+      name: "Personal Portfolio Site",
+      imageUrl: "/assets/portfolio.png",
+      techStack: ["React", "TypeScript", "Tailwind CSS", "Formspree", "ARIA"],
+      description: "A fully responsive portfolio website designed to showcase my projects, skills, and experience. The site features modern design practices, accessibility enhancements, and interactive elements to provide a seamless user experience.",
+      contributions: "Developed the entire application using React and TypeScript; implemented responsive design with Tailwind CSS; ensured accessibility with ARIA landmarks and focus indicators; integrated Formspree for contact form submissions; added smooth scrolling, hover effects, and subtle animations. (You're on this site right now, so... meta!)",
+      githubLink: "https://github.com/jimmacur/jim-macur-portfolio",
+      liveLink: "https://your-portfolio-site.com",
     },
     {
       name: "Tea Subscription Service",
@@ -43,13 +52,21 @@ const Projects: React.FC = () => {
       description: "A front-end application for an e-commerce platform that consumes data from a Rails API backend, built using service-oriented architecture. The app allows users to browse items, filter by merchants, and perform client-side validation.",
       contributions: "Collaborated with a team to develop the front end using JavaScript, HTML, and CSS; implemented hover effects, flexbox layouts, and a dynamic UI; refactored for loops into array prototype methods for readability; added client-side validation to enhance user experience.",
       githubLink: "https://github.com/jimmacur/little-shop-fe-group", 
+    },
+    {
+      name:"ChuckNorrisQuotes",
+      imageUrl:"/assets/chuck-norris-quotes.png",
+      techStack:['React', 'JavaScript', 'CSS', 'API Consumption'],
+      description:"A fun project built in one day to practice consuming APIs and display random Chuck Norris jokes.",
+      contributions:"Developed a simple React app that fetches and displays random jokes from an external API.",
+      githubLink:"https://github.com/jimmacur/ChuckNorrisJokes"
     }
   ];
 
   return (
-    <section id="projects" className="py-16 bg-sky-100">
+    <section id="projects" className="py-16 bg-sky-100" role="region" aria-labelledby="projects-heading">
       <div className="container mx-auto px-4">
-        <h1 className="text-4xl font-bold text-center text-gray-800 mb-12">Projects</h1>
+        <h1 className="text-4xl font-extrabold mb-12 text-center text-gray-800">Projects</h1>
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {projectsData.map((project) => (
             <Project key={project.name} {...project} />
