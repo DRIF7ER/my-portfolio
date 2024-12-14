@@ -4,9 +4,29 @@ import { FaPhone, FaEnvelope, FaLinkedin } from 'react-icons/fa';
 const Contact: React.FC = () => {
   const formRef = useRef<HTMLFormElement>(null);
 
-  const handleSubmit = () => {
-    if (formRef.current) {
-      formRef.current.reset(); // Clears the form fields after submission
+  const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault(); // Prevent default form submission
+
+    const form = event.currentTarget;
+
+    try {
+      const response = await fetch(form.action, {
+        method: form.method,
+        body: new FormData(form),
+        headers: {
+          Accept: 'application/json',
+        },
+      });
+
+      if (response.ok) {
+        form.reset(); // Clear the form after successful submission
+        alert('Your message has been sent successfully!');
+      } else {
+        alert('There was an error sending your message. Please try again.');
+      }
+    } catch (error) {
+      console.error('Error:', error);
+      alert('There was an error sending your message. Please try again.');
     }
   };
 
@@ -19,7 +39,7 @@ const Contact: React.FC = () => {
 
         <div className="flex flex-col md:flex-row items-center justify-between gap-12">
           {/* Contact Info Section on the Left */}
-          <div className="flex-shrink-0 w-full md:w-1/2 flex flex-col items-center md:items-center text-center md:text-center">
+          <div className="flex-shrink-0 w-full md:w-1/2 flex flex-col items-center text-center">
             <img
               src="/assets/jim-macur-headshot.jpeg"
               alt="Jim Macur"
