@@ -14,7 +14,7 @@ const EducationCard: React.FC<EducationCardProps> = ({ logo, institution, degree
     <div className='flex items-start bg-white shadow-md p-6 rounded-lg mb-4'>
       <img
         src={logo}
-        alt={institution}
+        alt={`${institution} logo`}
         className='w-16 h-16 object-contain rounded-lg mr-6'
       />
       <div>

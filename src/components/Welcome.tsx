@@ -20,7 +20,7 @@ const Welcome: React.FC = () => {
             <FaLinkedin size={50} />
           </a>
         </div>
-        <p className="text-3xl text-gray-600 max-w-2xl mx-auto mb-6 pb-1 animate-fadeIn delay-800">
+        <div className="text-3xl text-gray-600 max-w-2xl mx-auto mb-6 pb-1 animate-fadeIn delay-800">
           <Typewriter
             options={{
               strings: [
@@ -35,7 +35,7 @@ const Welcome: React.FC = () => {
               loop: true
             }}
           />
-        </p>
+        </div>
         <a
           href="#projects"
           className="bg-blue-500 text-white px-6 py-3 rounded-full shadow-md hover:bg-blue-600 transition duration-300 animate-fadeIn delay-1000"

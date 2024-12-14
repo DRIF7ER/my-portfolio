@@ -5,7 +5,7 @@ import { ReactJS, JavaScript, Git, GitHub, Postman, JSON, Ruby, Rails, RSPEC, Cy
 const Skills: React.FC = () => {
 
   return (
-    <section id="skills" className="p-8 bg-gray-500">
+    <section id="skills" className="p-8 bg-gray-500 mb-16">
       <h2 className="text-3xl font-bold mb-6">Skills</h2>
 
       <h3 className="text-2xl font-semibold mt-4 mb-2 text-gray-200 bg-gray-600 p-2">Frontend Development</h3>

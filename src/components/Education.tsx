@@ -3,7 +3,7 @@ import EducationCard from './EducationCard';
 
 const Education: React.FC = () => {
   return (
-    <section id="education" className="h-screen flex items-center justify-center bg-gray-100">
+    <section id="education" className=" flex items-center justify-center bg-gray-100 aria-label='Education Section'">
       <div className="container mx-auto">
         <h2 className="text-4xl text-center mb-8">Education</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
