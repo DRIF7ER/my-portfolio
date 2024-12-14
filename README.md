@@ -1,46 +1,105 @@
-# Getting Started with Create React App
+# Jim Macur's Professional Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the repository for **Jim Macur's Professional Portfolio**! This site showcases my projects, skills, education, and experience as a fullstack developer. Built with modern web technologies, the portfolio emphasizes accessibility, responsive design, and user engagement.
 
-## Available Scripts
+![App Demo](./public/assets/portfolio.gif)
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [Live Site](#live-site)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+  - [Installation](#installation)
+  - [Running the Project](#running-the-project)
+- [Project Structure](#project-structure)
+- [Accessibility](#accessibility)
+- [Contact](#contact)
+- [License](#license)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Live Site
 
-### `npm test`
+Check out the live version of the portfolio here:  
+[**Jim Macur's Portfolio**](https://your-portfolio-site.com)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Responsive Design**: Works seamlessly on desktop, tablet, and mobile devices.
+- **Interactive Elements**: Smooth scrolling, hover effects, and subtle animations enhance user experience.
+- **Contact Form**: Integrated with **Formspree** to allow easy email communication.
+- **Accessibility**: ARIA landmarks, focus indicators, and screen reader-friendly labels.
+- **Back-to-Top Button**: Allows users to quickly navigate to the top of the page.
+- **Projects Showcase**: Displays detailed information about projects, tech stacks, and contributions.
+- **Education Section**: Highlights educational background with institution logos and program details.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Technologies Used
 
-### `npm run eject`
+- **Frontend**: React, TypeScript, Tailwind CSS
+- **Form Handling**: Formspree
+- **Icons**: React Icons (FontAwesome)
+- **Accessibility**: ARIA landmarks, focus indicators
+- **Animations**: Tailwind CSS animations and transitions
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+---
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Getting Started
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Follow these steps to get a local copy of the project up and running.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Prerequisites
 
-## Learn More
+Make sure you have the following installed:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Node.js** (v14 or higher)
+- **npm** (v6 or higher)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Installation
+
+1. **Clone the repository**:
+
+  ```bash
+  git clone https://github.com/jimmacur/jim-macur-portfolio.git
+
+  cd jim-macur-portfolio
+  ```
+2. **Install Dependencies**:
+
+  ```
+  npm install
+  ```
+
+3. **Start the Development Server**:
+
+```
+npm start
+```
+
+### Accessibility 
+
+This portfolio follows accessibility best practices to ensure an inclusive user experience. Key features include:
+
+•	ARIA Landmarks: Implemented role attributes and aria-labelledby for improved screen reader navigation, making it easier for users to understand and navigate the site structure.
+
+•	Semantic HTML: Used appropriate HTML elements like headings `(<h1>, <h2>, etc.)`, lists, and sections to enhance the document’s structure and readability.
+
+•	Descriptive Links: Included aria-label attributes for links and buttons to provide context for screen reader users.
+
+•	Accessible Forms: Contact forms use label elements and aria-labelledby to ensure all form fields are properly associated and usable by assistive technologies.
+
+These practices help make the portfolio accessible to a broader audience, including those using screen readers or navigating via keyboard.
+
+### Contact
+
+Feel free to reach out to me via:
+
+•	Email: jim.macur@gmail.com
+
+•	LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/jimmacur/)
+
+•	GitHub: [GitHub Profile](https://github.com/jimmacur)

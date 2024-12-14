@@ -55,7 +55,7 @@ const Projects: React.FC = () => {
     },
     {
       name:"ChuckNorrisQuotes",
-      imageUrl:"/assets/chuck-norris-quotes.png",
+      imageUrl:"/assets/chuck-norris-jokes.gif",
       techStack:['React', 'JavaScript', 'CSS', 'API Consumption'],
       description:"A fun project built in one day to practice consuming APIs and display random Chuck Norris jokes.",
       contributions:"Developed a simple React app that fetches and displays random jokes from an external API.",
