@@ -20,7 +20,6 @@ const Skills: React.FC = () => {
         <SkillCard icon={<TypeScript />} name="TypeScript" />
         <SkillCard icon={<ReactJS />} name="React" />
         <SkillCard icon={<HTML />} name="HTML5" />
-        <SkillCard icon={<CSS />} name="CSS3" />
         <SkillCard icon={<TailwindCSS />} name="Tailwind CSS" />
         <SkillCard icon={<JSON />} name="JSON" />
         <SkillCard icon={<Netlify />} name="Netlify" />
