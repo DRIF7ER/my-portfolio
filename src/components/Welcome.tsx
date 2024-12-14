@@ -4,11 +4,7 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const Welcome: React.FC = () => {
   return (
-    <section
-      id="home"
-      className="h-screen flex flex-col items-center justify-center bg-sky-300 p-4 text-center"
-      aria-labelledby="welcome-heading"
-    >
+    <section id="home" className="h-screen flex flex-col items-center justify-center bg-sky-300 p-4 text-center" role="region" aria-labelledby="welcome-heading">
       <div className="max-w-4xl">
         <img
           src="/assets/jim-macur-headshot.jpeg"

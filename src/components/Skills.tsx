@@ -4,7 +4,7 @@ import {ReactJS, JavaScript, Git, GitHub, Postman, JSON, Ruby, Rails, RSPEC, Cyp
 
 const Skills: React.FC = () => {
   return (
-    <section id="skills" className="p-8 bg-sky-500" aria-labelledby="skills-heading">
+    <section id="skills" className="p-8 bg-sky-500" role="region" aria-labelledby="skills-heading">
       <h2 id="skills-heading" className="text-4xl font-extrabold mb-12 text-center text-gray-800">
         Skills
       </h2>

@@ -11,7 +11,7 @@ const Contact: React.FC = () => {
   };
 
   return (
-    <section id="contact" className="bg-sky-100 py-16 px-6" aria-labelledby="contact-heading">
+    <section id="contact" className="bg-sky-100 py-16 px-6" role="region" aria-labelledby="contact-heading">
       <div className="max-w-6xl mx-auto">
         <h2 id="contact-heading" className="text-4xl font-extrabold mb-12 text-center text-gray-800">
           Contact Me

@@ -2,10 +2,7 @@ import React from 'react';
 
 const Navbar: React.FC = () => {
   return (
-    <nav
-      className="fixed top-0 left-0 w-full bg-sky-500 shadow-md z-50"
-      aria-label="Main Navigation"
-    >
+    <nav className="fixed top-0 left-0 w-full bg-sky-500 shadow-md z-50" role="navigation" aria-label="Main Navigation">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
