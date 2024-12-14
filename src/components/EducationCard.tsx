@@ -12,7 +12,7 @@ interface EducationCardProps {
 const EducationCard: React.FC<EducationCardProps> = ({ logo, institution, degree, description, dates, highlights }) => {
   return (
     <div
-      className="flex items-start bg-white shadow-md p-6 rounded-lg mb-4"
+      className="flex items-start bg-white shadow-md p-6 rounded-lg hover:shadow-lg hover:scale-105 transition-transform duration-300"
       role="region"
       aria-labelledby={`heading-${institution.replace(/\s+/g, '-')}`}
     >

@@ -5,7 +5,7 @@ const AboutMe: React.FC = () => {
   return (
     <section id="aboutMe" className="bg-gray-50 py-16 px-6" aria-labelledby="about-me-heading">
       <div className="max-w-5xl mx-auto text-center">
-        <h2 id="about-me-heading" className="text-4xl font-extrabold mb-8 text-gray-800">About Me</h2>
+        <h2 id="about-me-heading" className="text-4xl font-extrabold mb-12 text-center text-gray-800">About Me</h2>
 
         <p className="text-xl text-gray-700 leading-relaxed mb-10">
           Hi, I'm <span className="font-semibold text-blue-600">Jim Macur</span>, a passionate fullstack developer with a background in teaching and a love for solving complex problems. 
@@ -28,7 +28,7 @@ const AboutMe: React.FC = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div className="bg-white p-6 shadow-md rounded-lg hover:shadow-lg transition-shadow duration-300" aria-labelledby="skills-heading">
+          <div className="bg-white shadow-md p-6 rounded-lg hover:shadow-lg hover:scale-105 transition-transform duration-300" aria-labelledby="skills-heading">
             <h3 id="skills-heading" className="text-2xl font-semibold mb-4 text-gray-800 border-b-2 border-blue-500 pb-2">
               Skills & Strengths
             </h3>
@@ -40,7 +40,7 @@ const AboutMe: React.FC = () => {
             </ul>
           </div>
 
-          <div className="bg-white p-6 shadow-md rounded-lg hover:shadow-lg transition-shadow duration-300" aria-labelledby="personal-highlights-heading">
+          <div className="bg-white shadow-md p-6 rounded-lg hover:shadow-lg hover:scale-105 transition-transform duration-300" aria-labelledby="personal-highlights-heading">
             <h3 id="personal-highlights-heading" className="text-2xl font-semibold mb-4 text-gray-800 border-b-2 border-blue-500 pb-2">
               Personal Highlights
             </h3>

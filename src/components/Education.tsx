@@ -5,13 +5,13 @@ const Education: React.FC = () => {
   return (
     <section
       id="education"
-      className="flex items-center justify-center bg-sky-500 pt-8 pb-16"
+      className="flex items-center justify-center bg-sky-200 pt-8 pb-16"
       aria-labelledby="education-heading"
     >
       <div className="container mx-auto">
         <h2
           id="education-heading"
-          className="text-3xl text-center font-bold mb-6"
+          className="text-4xl font-extrabold mb-12 text-center text-gray-800"
         >
           Education
         </h2>

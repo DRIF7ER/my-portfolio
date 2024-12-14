@@ -49,7 +49,7 @@ const Projects: React.FC = () => {
   return (
     <section id="projects" className="py-16 bg-sky-100">
       <div className="container mx-auto px-4">
-        <h1 className="text-4xl font-bold text-center text-gray-800 mb-12">Projects</h1>
+        <h1 className="text-4xl font-extrabold mb-12 text-center text-gray-800">Projects</h1>
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {projectsData.map((project) => (
             <Project key={project.name} {...project} />

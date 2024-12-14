@@ -59,7 +59,7 @@ const Welcome: React.FC = () => {
 
         <a
           href="#projects"
-          className="bg-blue-500 text-white px-6 py-3 rounded-full shadow-md hover:bg-blue-600 transition duration-300 animate-fadeIn delay-1000"
+          className="bg-blue-500 text-white px-6 py-3 rounded-full shadow-md hover:bg-blue-600 transition-transform duration-300 ease-in-out hover:scale-110 hover:shadow-lg"
           aria-label="Navigate to my projects section"
         >
           See My Projects
