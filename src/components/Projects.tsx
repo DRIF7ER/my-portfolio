@@ -43,6 +43,14 @@ const Projects: React.FC = () => {
       description: "A front-end application for an e-commerce platform that consumes data from a Rails API backend, built using service-oriented architecture. The app allows users to browse items, filter by merchants, and perform client-side validation.",
       contributions: "Collaborated with a team to develop the front end using JavaScript, HTML, and CSS; implemented hover effects, flexbox layouts, and a dynamic UI; refactored for loops into array prototype methods for readability; added client-side validation to enhance user experience.",
       githubLink: "https://github.com/jimmacur/little-shop-fe-group", 
+    },
+    {
+      name:"ChuckNorrisQuotes",
+      imageUrl:"/assets/chuck-norris-quotes.png",
+      techStack:['React', 'JavaScript', 'CSS', 'API Consumption'],
+      description:"A fun project built in one day to practice consuming APIs and display random Chuck Norris jokes.",
+      contributions:"Developed a simple React app that fetches and displays random jokes from an external API.",
+      githubLink:"https://github.com/jimmacur/ChuckNorrisJokes"
     }
   ];
 
