@@ -2,6 +2,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Welcome from './components/Welcome';
 import Projects from './components/Projects';
+import Skills from './components/Skills';
 
 function App() {
   return (
@@ -9,9 +10,7 @@ function App() {
       <Navbar />
       <Welcome />
       <Projects />
-      <section id="languages" className="h-screen flex items-center justify-center bg-gray-100">
-        <h2 className="text-4xl">Languages and Frameworks</h2>
-      </section>
+      <Skills />
       <section id="experience" className="h-screen flex items-center justify-center bg-gray-200">
         <h2 className="text-4xl">Experience</h2>
       </section>
