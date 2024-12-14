@@ -6,6 +6,7 @@ import Skills from './components/Skills';
 import Education from './components/Education';
 import AboutMe from './components/AboutMe';
 import Contact from './components/Contact';
+import BackToTop from './components/BackToTop';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Education />
       <AboutMe />
       <Contact />
+      <BackToTop />
     </div>
   );
 }
