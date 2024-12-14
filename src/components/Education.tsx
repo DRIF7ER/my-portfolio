@@ -3,10 +3,19 @@ import EducationCard from './EducationCard';
 
 const Education: React.FC = () => {
   return (
-    <section id="education" className=" flex items-center justify-center bg-gray-100 aria-label='Education Section'">
+    <section
+      id="education"
+      className="flex items-center justify-center bg-sky-500 pt-8 pb-16"
+      aria-labelledby="education-heading"
+    >
       <div className="container mx-auto">
-        <h2 className="text-4xl text-center mb-8">Education</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <h2
+          id="education-heading"
+          className="text-3xl text-center font-bold mb-6"
+        >
+          Education
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8" aria-label="List of educational qualifications">
           <EducationCard
             logo="/assets/turing-logo.png"
             institution="Turing School of Software & Design"
@@ -60,8 +69,8 @@ const Education: React.FC = () => {
           />
         </div>
       </div>
-    </section>  
+    </section>
   );
-}
+};
 
 export default Education;
