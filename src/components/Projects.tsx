@@ -18,7 +18,7 @@ const Projects: React.FC = () => {
       staticImageUrl: "/assets/portfolio.png",
       gifUrl: "/assets/portfolio.gif",
       techStack: ["React", "TypeScript", "Tailwind CSS", "Formspree", "ARIA"],
-      description: "(You're on this site right now, so... meta!) A fully responsive portfolio website designed to showcase my projects, skills, and experience. The site features modern design practices, accessibility enhancements, and interactive elements to provide a seamless user experience.",
+      description: "(Yep! You're on this site right now, so... meta 😄) A fully responsive portfolio website designed to showcase my projects, skills, and experience. The site features modern design practices, accessibility enhancements, and interactive elements to provide a seamless user experience.",
       contributions: "Developed the entire application using React and TypeScript; implemented responsive design with Tailwind CSS; ensured accessibility with ARIA landmarks and focus indicators; integrated Formspree for contact form submissions; added smooth scrolling, hover effects, and subtle animations.",
       githubLink: "https://github.com/jimmacur/jim-macur-portfolio",
       liveLink: "https://jim-macur-portfolio.vercel.app/",

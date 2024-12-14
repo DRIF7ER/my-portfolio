@@ -8,7 +8,7 @@ interface SkillCardProps {
 const SkillCard: React.FC<SkillCardProps> = ({ icon, name }) => {
   return (
     <div
-      className="flex flex-col items-center m-4 transition-transform transform hover:scale-110"
+      className="flex flex-col items-center m-4 transition-transform transform"
       role="group"
       aria-label={`Skill: ${name}`}
     >
