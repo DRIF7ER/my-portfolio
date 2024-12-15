@@ -71,8 +71,8 @@ const Projects: React.FC = () => {
   ];
 
   return (
-    <section id="projects" className="py-16 bg-sky-100" role="region" aria-labelledby="projects-heading">
-      <div className="container mx-auto px-4">
+    <section id="projects" className="container-standard py-16 bg-sky-100" role="region" aria-labelledby="projects-heading">
+      <div className=" mx-auto px-4">
         <h1 id="projects-heading" className="text-4xl font-extrabold mb-12 text-center text-gray-800">
           Projects
         </h1>

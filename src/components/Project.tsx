@@ -25,7 +25,7 @@ const Project: React.FC<ProjectProps> = ({
 
   return (
     <div
-      className="bg-white rounded-lg shadow-md p-6 max-w-md mx-auto hover:shadow-lg hover:scale-105 transition-transform duration-300 group"
+      className=" bg-white rounded-lg shadow-md p-6 max-w-md mx-auto hover:shadow-lg hover:scale-105 transition-transform duration-300 group container-standard"
       role="region"
       aria-labelledby={`project-${name.replace(/\s+/g, '-').toLowerCase()}-heading`}
       onMouseEnter={() => setIsHovered(true)}
@@ -73,7 +73,7 @@ const Project: React.FC<ProjectProps> = ({
             href={liveLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-blue-500 hover:underline"
+            className="text-blue-700 hover:underline"
             aria-label={`View live project: ${name}`}
           >
             Live Project
@@ -84,7 +84,7 @@ const Project: React.FC<ProjectProps> = ({
             href={githubLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-blue-500 hover:underline"
+            className="text-blue-700 hover:underline"
             aria-label={`View GitHub repository for ${name}`}
           >
             GitHub Repo

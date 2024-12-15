@@ -15,7 +15,7 @@ const SkillCard: React.FC<SkillCardProps> = ({ icon, name }) => {
       <div className="w-12 h-12 mb-2" aria-hidden="true">
         {icon}
       </div>
-      <span className="text-gray-200 font-semibold" id={`skill-${name.replace(/\s+/g, '-').toLowerCase()}`}>
+      <span className=" font-semibold" id={`skill-${name.replace(/\s+/g, '-').toLowerCase()}`}>
         {name}
       </span>
     </div>

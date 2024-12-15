@@ -18,6 +18,10 @@ html {
   }
 }
 
+.container-standard {
+  @apply mx-auto px-6 sm:px-8 md:px-12 max-w-7xl;
+}
+
 .animate-fadeIn {
   animation: fadeIn 1s ease-out;
 }

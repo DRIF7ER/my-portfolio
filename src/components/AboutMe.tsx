@@ -6,8 +6,8 @@ const AboutMe: React.FC = () => {
   const [showModal, setShowModal] = useState(false);
 
   return (
-    <section id="aboutMe" className="bg-gray-50 py-16 px-6" aria-labelledby="about-me-heading">
-      <div className="max-w-5xl mx-auto text-center">
+    <section id="aboutMe" className="container-standard bg-gray-50 py-16 px-6" aria-labelledby="about-me-heading">
+      <div className=" max-w-5xl mx-auto text-center">
         <h2 id="about-me-heading" className="text-4xl font-extrabold mb-8 text-gray-800">
           About Me
         </h2>
@@ -23,7 +23,7 @@ const AboutMe: React.FC = () => {
         <div className="flex justify-center mb-12">
           <button
             onClick={() => setShowModal(true)}
-            className="flex items-center bg-blue-500 text-white px-6 py-3 rounded-full shadow-lg hover:bg-blue-600 transition-transform transform hover:scale-105 duration-300"
+            className="flex items-center bg-blue-700 text-white px-6 py-3 rounded-full shadow-lg hover:bg-blue-800 transition-transform transform hover:scale-105 duration-300"
             aria-label="Open resume modal"
           >
             <FaFilePdf className="mr-2" size={20} aria-hidden="true" />

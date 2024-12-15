@@ -94,6 +94,8 @@ This portfolio follows accessibility best practices to ensure an inclusive user 
 
 These practices help make the portfolio accessible to a broader audience, including those using screen readers or navigating via keyboard.
 
+![accessibility](./public/assets/accessibility.png)
+
 ### Contact
 
 Feel free to reach out to me via:

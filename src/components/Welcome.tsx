@@ -4,8 +4,8 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const Welcome: React.FC = () => {
   return (
-    <section id="home" className="h-screen flex flex-col items-center justify-center bg-sky-300 p-4 text-center" role="region" aria-labelledby="welcome-heading">
-      <div className="max-w-4xl">
+    <section id="home" className="container-standard flex flex-col items-center justify-center bg-sky-300 p-4 pt-20 min-h-screen text-center" role="region" aria-labelledby="welcome-heading">
+      <div className=" max-w-4xl">
         <img
           src="/assets/jim-macur-headshot.jpeg"
           alt="Portrait of Jim Macur"
@@ -55,7 +55,7 @@ const Welcome: React.FC = () => {
 
         <a
           href="#projects"
-          className="bg-blue-500 text-white px-6 py-3 rounded-full shadow-md hover:bg-blue-600 transition-transform duration-300 ease-in-out hover:scale-110 hover:shadow-lg"
+          className="bg-blue-700 text-white px-6 py-3 rounded-full shadow-md hover:bg-blue-900 transition-transform duration-300 ease-in-out hover:scale-110 hover:shadow-lg"
           aria-label="Navigate to my projects section"
         >
           See My Projects

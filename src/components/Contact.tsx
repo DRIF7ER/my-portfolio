@@ -31,7 +31,7 @@ const Contact: React.FC = () => {
   };
 
   return (
-    <section id="contact" className="bg-sky-100 py-16 px-6" role="region" aria-labelledby="contact-heading">
+    <section id="contact" className="container-standard bg-sky-100 py-16 px-6" role="region" aria-labelledby="contact-heading">
       <div className="max-w-6xl mx-auto">
         <h2 id="contact-heading" className="text-4xl font-extrabold mb-12 text-center text-gray-800">
           Contact Me
@@ -129,7 +129,7 @@ const Contact: React.FC = () => {
 
               <button
                 type="submit"
-                className="bg-blue-500 text-white px-6 py-3 rounded-full shadow-md hover:bg-blue-600 transition-transform transform hover:scale-105"
+                className="bg-blue-700 text-white px-6 py-3 rounded-full shadow-md hover:bg-blue-600 transition-transform transform hover:scale-105"
               >
                 Send Message
               </button>
