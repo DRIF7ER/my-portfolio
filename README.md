@@ -2,7 +2,7 @@
 
 Welcome to the repository for **Jim Macur's Professional Portfolio**! This site showcases my projects, skills, education, and experience as a fullstack developer. Built with modern web technologies, the portfolio emphasizes accessibility, responsive design, and user engagement.
 
-![App Demo](./public/assets/portfolio.gif)
+![App Demo](./public/assets/jim-macur-portfolio.gif)
 
 ## Table of Contents
 
