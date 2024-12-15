@@ -5,7 +5,7 @@ const Education: React.FC = () => {
   return (
     <section
       id="education"
-      className="flex items-center justify-center bg-sky-200 pt-8 pb-16"
+      className="container-standard flex items-center justify-center bg-sky-400 pt-8 pb-16"
       role="region"
       aria-labelledby="education-heading"
     >

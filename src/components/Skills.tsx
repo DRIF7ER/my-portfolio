@@ -4,13 +4,13 @@ import {ReactJS, JavaScript, Git, GitHub, Postman, JSON, Ruby, Rails, RSPEC, Cyp
 
 const Skills: React.FC = () => {
   return (
-    <section id="skills" className="p-8 bg-sky-500" role="region" aria-labelledby="skills-heading">
+    <section id="skills" className="container-standard p-8 bg-sky-200" role="region" aria-labelledby="skills-heading">
       <h2 id="skills-heading" className="text-4xl font-extrabold mb-12 text-center text-gray-800">
         Skills
       </h2>
 
       <h3
-        className="text-2xl font-semibold mt-4 mb-2 text-gray-200 bg-sky-600 p-2"
+        className="text-2xl font-semibold mt-4 mb-2  bg-sky-400 p-2"
         id="frontend-heading"
       >
         Frontend Development
@@ -20,14 +20,13 @@ const Skills: React.FC = () => {
         <SkillCard icon={<TypeScript />} name="TypeScript" />
         <SkillCard icon={<ReactJS />} name="React" />
         <SkillCard icon={<HTML />} name="HTML5" />
-        <SkillCard icon={<CSS />} name="CSS3" />
         <SkillCard icon={<TailwindCSS />} name="Tailwind CSS" />
         <SkillCard icon={<JSON />} name="JSON" />
         <SkillCard icon={<Netlify />} name="Netlify" />
       </div>
 
       <h3
-        className="text-2xl font-semibold mt-4 mb-2 text-gray-200 bg-sky-700 p-2"
+        className="text-2xl font-semibold mt-4 mb-2 bg-sky-300 p-2"
         id="backend-heading"
       >
         Backend Development
@@ -41,7 +40,7 @@ const Skills: React.FC = () => {
       </div>
 
       <h3
-        className="text-2xl font-semibold mt-4 mb-2 text-gray-200 bg-sky-600 p-2"
+        className="text-2xl font-semibold mt-4 mb-2  bg-sky-400 p-2"
         id="testing-heading"
       >
         Testing
@@ -52,7 +51,7 @@ const Skills: React.FC = () => {
       </div>
 
       <h3
-        className="text-2xl font-semibold mt-4 mb-2 text-gray-200 bg-sky-700 p-2"
+        className="text-2xl font-semibold mt-4 mb-2  bg-sky-300 p-2"
         id="collaboration-heading"
       >
         Collaboration & Workflow
