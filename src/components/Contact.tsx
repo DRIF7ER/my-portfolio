@@ -5,7 +5,7 @@ const Contact: React.FC = () => {
   const formRef = useRef<HTMLFormElement>(null);
 
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
-    event.preventDefault(); // Prevent default form submission
+    event.preventDefault();
 
     const form = event.currentTarget;
 
@@ -19,7 +19,7 @@ const Contact: React.FC = () => {
       });
 
       if (response.ok) {
-        form.reset(); // Clear the form after successful submission
+        form.reset();
         alert('Your message has been sent successfully!');
       } else {
         alert('There was an error sending your message. Please try again.');
@@ -31,15 +31,15 @@ const Contact: React.FC = () => {
   };
 
   return (
-    <section id="contact" className="container-standard bg-sky-100 py-16 px-6" role="region" aria-labelledby="contact-heading">
-      <div className="max-w-6xl mx-auto">
-        <h2 id="contact-heading" className="text-4xl font-extrabold mb-12 text-center text-gray-800">
+    <section id="contact" className=" bg-sky-100 py-16 px-6" role="region" aria-labelledby="contact-heading">
+      <div className="container-standard max-w-6xl mx-auto">
+        <h2 id="contact-heading" className=" text-4xl font-extrabold mb-12 text-center text-gray-800">
           Contact Me
         </h2>
 
         <div className="flex flex-col md:flex-row items-center justify-between gap-12">
           {/* Contact Info Section on the Left */}
-          <div className="flex-shrink-0 w-full md:w-1/2 flex flex-col items-center text-center">
+          <div className="flex-shrink-0 w-full md:w-[45%] flex flex-col items-center text-center">
             <img
               src="/assets/jim-macur-headshot.jpeg"
               alt="Jim Macur"
@@ -80,7 +80,7 @@ const Contact: React.FC = () => {
           </div>
 
           {/* Contact Form on the Right */}
-          <div className="flex-1 w-full md:w-1/2">
+          <div className="flex-1 w-full md:w-[45%]">
             <form
               ref={formRef}
               action="https://formspree.io/f/mbljenez"
