@@ -71,7 +71,7 @@ const Projects: React.FC = () => {
   ];
 
   return (
-    <section id="projects" className=" py-16 bg-sky-100" role="region" aria-labelledby="projects-heading">
+    <section id="projects" className="cursor-pointer py-16 bg-sky-100" role="region" aria-labelledby="projects-heading">
       <div className="container-standard mx-auto px-4">
         <h1 id="projects-heading" className="text-4xl font-extrabold mb-12 text-center text-gray-800">
           Projects

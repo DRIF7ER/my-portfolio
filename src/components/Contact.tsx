@@ -49,11 +49,6 @@ const Contact: React.FC = () => {
 
             <div className="text-gray-700 text-lg space-y-4">
               <div className="flex items-center justify-center md:justify-start">
-                <FaPhone className="mr-3 text-blue-500" size={24} aria-hidden="true" />
-                <span className="font-medium" aria-label="Phone number">+1 (720) 563-1705</span>
-              </div>
-
-              <div className="flex items-center justify-center md:justify-start">
                 <FaEnvelope className="mr-3 text-blue-500" size={24} aria-hidden="true" />
                 <a
                   href="mailto:jim.macur@gmail.com"
