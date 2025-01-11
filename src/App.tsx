@@ -7,19 +7,30 @@ import Education from './components/Education';
 import AboutMe from './components/AboutMe';
 import Contact from './components/Contact';
 import BackToTop from './components/BackToTop';
+import ProjectDetails from './components/ProjectDetails';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div>
-      <Navbar />
-      <Welcome />
-      <AboutMe />
-      <Projects />
-      <Skills />
-      <Education />
-      <Contact />
-      <BackToTop />
-    </div>
+    <Router>
+      <div>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={
+            <>
+              <Welcome />
+              <AboutMe />
+              <Projects />
+              <Skills />
+              <Education />
+              <Contact />
+              <BackToTop />
+            </>
+          } />
+          <Route path="/projects/:projectName" element={<ProjectDetails />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 

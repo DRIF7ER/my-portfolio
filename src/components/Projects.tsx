@@ -1,14 +1,41 @@
 import React from 'react';
 import Project from './Project';
+import { useNavigate } from 'react-router-dom';
+import ProjectDetails from "./ProjectDetails";
 
 const Projects: React.FC = () => {
+  const navigate = useNavigate();
+  
   const projectsData = [
+    {
+      name: "Tracker",
+      staticImageUrl: "/assets/tracker.png",
+      gifUrl: "/assets/tracker-companies.gif",
+      techStack: ["React", "TypeScript", "Tailwind CSS", "Cypress", "Rails", "RSpec", "SimpleCov"],
+      description:
+        "A robust job application tracking application designed to help users manage contacts, companies, and applications efficiently. Built by an agile team of 13 developers, it streamlines the job-hunting process by providing features for categorization, tracking, and real-time updates.",
+      contributions:
+        "Collaborated with a cross-functional team to design and implement core features, including CRUD functionality for contacts and applications, real-time updates using Firebase, and responsive design using Tailwind CSS. Personally responsible for both backend and frontend updates for the companies feature, including authentication, authorization, and implementation of index, show, and create functionalities. Focused on clean, maintainable code and an intuitive user interface.",
+      githubLink: "https://github.com/turingschool/tracker-crm-fe",
+    },
+    {
+      name: "Chess War",
+      staticImageUrl: "/assets/chess-war.png",
+      gifUrl: "/assets/chess-war-gameplay.gif",
+      techStack: ["Vue.js", "Tailwind CSS", "TypeScript", "Vite"],
+      description:
+        "A dynamic and interactive fusion of the pieces of chess and the card game war. Players can customize avatars, compete for points, and enjoy responsive gameplay across devices.",
+      contributions:
+        "Designed and implemented the full game logic, including scoring systems, winner announcements, and tie-breakers. Created responsive layouts with Tailwind CSS and Vue components for an immersive user experience.",
+      githubLink: "https://github.com/jimmacur/chess-war",
+      liveLink: "https://chess-war.vercel.app/",
+    },
     {
       name: "Down the Rabbit Hole",
       staticImageUrl: "/assets/down-the-rabbit-hole.png",
       gifUrl: "/assets/down-the-rabbit-hole.gif",
       techStack: ["React", "CSS", "Cypress", "Rails", "REST API", "RSpec", "SimpleCov", "ARIA"],
-      description: "An educational (k-5) application to explore food webs within national parks and their ecosystems.",
+      description: "An educational (k-5) application to explore food webs within national parks and their ecosystems. Users can view animals, learn fun facts, favorite animals, explore the food chain and learn to draw their favorite animals.",
       contributions: "Created the concept of the application; led a team of 5 developers; built the frontend using React; implemented dynamic modals and the favorite feature.",
       liveLink: "https://down-the-rabbit-hole.netlify.app/",
       githubLink: "https://github.com/Down-the-Rabbit-Holes",
@@ -70,15 +97,27 @@ const Projects: React.FC = () => {
     },
   ];
 
+  const handleProjectClick = (project: typeof projectsData[0]) => {
+    navigate(`/projects/${project.name.replace(/\s+/g, "-").toLowerCase()}`, {
+      state: { project },
+    });
+  };
+
   return (
-    <section id="projects" className="cursor-pointer py-16 bg-sky-100" role="region" aria-labelledby="projects-heading">
-      <div className="container-standard mx-auto px-4">
-        <h1 id="projects-heading" className="text-4xl font-extrabold mb-12 text-center text-gray-800">
+    <section id="projects" className="py-16 bg-sky-100">
+      <div className="container mx-auto">
+        <h1 className="text-4xl font-extrabold mb-12 text-center text-gray-800">
           Projects
         </h1>
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {projectsData.map((project) => (
-            <Project key={project.name} {...project} />
+            <div
+              key={project.name}
+              onClick={() => handleProjectClick(project)}
+              className="cursor-pointer flex shadow-md rounded-lg hover:shadow-lg "
+            >
+              <Project {...project} />
+            </div>
           ))}
         </div>
       </div>
