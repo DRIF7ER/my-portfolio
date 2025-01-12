@@ -15,7 +15,7 @@ const Navbar: React.FC = () => {
           {/* Logo/Name */}
           <div className="flex items-center group">
             <a
-              href="#home"
+              href="/#home"
               className="relative text-2xl md:text-3xl font-bold text-white font-lobster transition-transform transform hover:scale-110 hover:text-orange-300"
             >
               Jim Macur
@@ -36,22 +36,22 @@ const Navbar: React.FC = () => {
 
           {/* Navigation Links */}
           <div className={`md:flex space-x-4 ${menuOpen ? 'block' : 'hidden'} absolute md:relative top-16 md:top-0 left-0 md:left-auto w-full md:w-auto bg-sky-700 md:bg-transparent p-4 md:p-0`}>
-            <a href="#home" className="block md:inline-block text-white hover:text-black py-2 md:py-0" aria-label="Go to Home section">
+            <a href="/#home" className="block md:inline-block text-white hover:text-black py-2 md:py-0" aria-label="Go to Home section">
               Home
             </a>
-            <a href="#aboutMe" className="block md:inline-block text-white hover:text-black py-2 md:py-0" aria-label="Go to About Me section">
+            <a href="/#aboutMe" className="block md:inline-block text-white hover:text-black py-2 md:py-0" aria-label="Go to About Me section">
               About Me
             </a>
-            <a href="#projects" className="block md:inline-block text-white hover:text-black py-2 md:py-0" aria-label="Go to Projects section">
+            <a href="/#projects" className="block md:inline-block text-white hover:text-black py-2 md:py-0" aria-label="Go to Projects section">
               Projects
             </a>
-            <a href="#skills" className="block md:inline-block text-white hover:text-black py-2 md:py-0" aria-label="Go to Skills section">
+            <a href="/#skills" className="block md:inline-block text-white hover:text-black py-2 md:py-0" aria-label="Go to Skills section">
               Skills
             </a>
-            <a href="#education" className="block md:inline-block text-white hover:text-black py-2 md:py-0" aria-label="Go to Education section">
+            <a href="/#education" className="block md:inline-block text-white hover:text-black py-2 md:py-0" aria-label="Go to Education section">
               Education
             </a>
-            <a href="#contact" className="block md:inline-block text-white hover:text-black py-2 md:py-0" aria-label="Go to Contact section">
+            <a href="/#contact" className="block md:inline-block text-white hover:text-black py-2 md:py-0" aria-label="Go to Contact section">
               Contact
             </a>
           </div>
