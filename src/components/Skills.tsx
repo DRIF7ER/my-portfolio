@@ -1,10 +1,10 @@
 import React from 'react';
 import SkillCard from './SkillCard';
-import {ReactJS, JavaScript, Git, GitHub, Postman, JSON, Ruby, Rails, RSPEC, Cypress, Slack, Heroku, Netlify, TypeScript, HTML, CSS, TailwindCSS, Jira, Figma } from '../components/icons';
+import {ReactJS, JavaScript, Git, GitHub, Postman, JSON, Ruby, Rails, RSPEC, Cypress, Slack, Heroku, Netlify, TypeScript, HTML, CSS, TailwindCSS, Jira, Figma, Vue, Angular } from '../components/icons';
 
 const Skills: React.FC = () => {
   return (
-    <section id="skills" className=" p-8 bg-sky-200" role="region" aria-labelledby="skills-heading">
+    <section id="skills" className=" p-8 bg-sky-200" aria-labelledby="skills-heading">
       <div className="container-standard">
         <h2 id="skills-heading" className="text-4xl font-extrabold mb-12 text-center text-gray-800">
           Skills
@@ -17,13 +17,16 @@ const Skills: React.FC = () => {
           Frontend Development
         </h3>
         <div className="flex flex-wrap" role="group" aria-labelledby="frontend-heading">
+          <SkillCard icon={<ReactJS />} name="React" />
+          <SkillCard icon={<Vue />} name="Vue" />
+          {/* <SkillCard icon={<Angular />} name="Angular" /> */}
           <SkillCard icon={<JavaScript />} name="JavaScript" />
           <SkillCard icon={<TypeScript />} name="TypeScript" />
-          <SkillCard icon={<ReactJS />} name="React" />
           <SkillCard icon={<HTML />} name="HTML5" />
+          <SkillCard icon={<CSS />} name="CSS" />
           <SkillCard icon={<TailwindCSS />} name="Tailwind CSS" />
-          <SkillCard icon={<JSON />} name="JSON" />
           <SkillCard icon={<Netlify />} name="Netlify" />
+          <SkillCard icon={<JSON />} name="JSON" />
         </div>
 
         <h3
