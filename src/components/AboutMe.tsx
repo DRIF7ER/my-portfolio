@@ -19,7 +19,7 @@ const AboutMe: React.FC = () => {
           I strive to be a fully-functioning human being who thrives on contributing to society and helping others reach their potential. Whether through coding, teaching, or collaborating with teams, I find joy in fostering growth, building meaningful connections, and making a positive impact wherever I can.
           <br />
           <br />
-          Beyond coding, I’ve been happily married to my amazing wife for 20 years, and we have two wonderful teenageres. Together, we love traveling, hiking, and sharing laughs around the dinner table. These moments of connection and adventure fuel my creativity and remind me of the importance of balance and joy in life.
+          Beyond coding, I’ve been happily married to my amazing wife for 20 years, and we have two wonderful teenagers. Together, we love traveling, hiking, and sharing laughs around the dinner table. These moments of connection and adventure fuel my creativity and remind me of the importance of balance and joy in life.
         </p>
 
         {/* Resume Button */}
