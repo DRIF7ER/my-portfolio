@@ -7,17 +7,17 @@ const Welcome: React.FC = () => {
     <section id="home" className="bg-sky-300 flex flex-col items-center justify-center  p-4 pt-20 min-h-screen text-center" role="region" aria-labelledby="welcome-heading">
       <div className="container-standard  max-w-4xl">
         <img
-          src="/assets/jim-macur-headshot.jpeg"
+          src="/assets/Self Portrait Edit.jpg"
           alt="Portrait of Jim Macur"
           className="max-w-[300px] h-auto mx-auto rounded-full shadow-lg mb-6 animate-fadeIn"
         />
         <h1 id="welcome-heading" className="text-5xl font-bold mb-4 text-gray-800 pt-2 animate-fadeIn delay-200">
-          Hi, I'm Jim Macur!
+          Hi, I'm Charles Banks!
         </h1>
 
         <div className="flex justify-center space-x-8 mt-6 pb-5 animate-fadeIn delay-400">
           <a
-            href="https://github.com/jimmacur"
+            href="https://github.com/DRIF7ER"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white hover:text-gray-300"
@@ -26,7 +26,7 @@ const Welcome: React.FC = () => {
             <FaGithub size={50} aria-hidden="true" />
           </a>
           <a
-            href="https://www.linkedin.com/in/jim-macur"
+            href="https://www.linkedin.com/in/charles-t-banks-jr-6b982b152/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white hover:text-gray-300"
@@ -40,7 +40,7 @@ const Welcome: React.FC = () => {
           <Typewriter
             options={{
               strings: [
-                'Fullstack Developer',
+                'Frontend Developer',
                 'React Enthusiast',
                 'Lifelong Learner',
                 'Agile Workflow Advocate',

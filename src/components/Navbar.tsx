@@ -16,9 +16,9 @@ const Navbar: React.FC = () => {
           <div className="flex items-center group">
             <a
               href="/#home"
-              className="relative text-2xl md:text-3xl font-bold text-white font-lobster transition-transform transform hover:scale-110 hover:text-orange-300"
+              className="relative text-2xl md:text-3xl text-white font-permanent transition-transform transform hover:scale-110 hover:text-orange-300"
             >
-              Jim Macur
+              Charles Banks
               <span className="absolute left-0 bottom-0 w-0 h-1 bg-orange-300 transition-all duration-300 group-hover:w-full"></span>
             </a>
           </div>

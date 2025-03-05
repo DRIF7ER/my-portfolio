@@ -10,6 +10,7 @@ module.exports = {
         pacifico: ['Pacifico', 'cursive'],
         orbitron: ['Orbitron', 'sans-serif'],
         bungee: ['Bungee', 'cursive'],
+        permanent: ['Permanent Marker', 'cursive']
       },
     },
   },
