@@ -13,13 +13,21 @@ const AboutMe: React.FC = () => {
         </h2>
 
         <p className="text-xl text-gray-700 leading-relaxed mb-10">
-          Hi, I'm <span className="font-bold">Jim Macur</span> (Mā-cur), a passionate fullstack developer with a background in teaching and a love for solving complex problems. After years of teaching and leadership, I transitioned into software development, where I apply my collaborative mindset and problem-solving skills to create accessible and engaging applications. I'm always eager to learn new technologies and improve my craft.
+          Hi, I'm <span className="font-bold">Charles T. Banks Jr.</span>, a passionate Frontend Developer with a Military 
+          background (Navy and Army) and a love for solving complex problems. My years of service have taught me how to organize 
+          chaos and dispell ambiguity, my experience in learning software development has taught me that's exactly what a Dev 
+          does, and life has taught me we are never done learning. Collaboration, a smooth workflow, and a good cup of coffee is 
+          what gives me that Friday feeling, even on Mondays! I'm always eager to learn new technologies and improve my craft.
           <br />
           <br />
-          I strive to be a fully-functioning human being who thrives on contributing to society and helping others reach their potential. Whether through coding, teaching, or collaborating with teams, I find joy in fostering growth, building meaningful connections, and making a positive impact wherever I can.
+          I find that approaching problems with an open mind and no immidiate interpretations is the fastest way to yield results.
+          Taking the time to build a holistic picture has helped me identify the root cause of an issue more times than I can recount
+          and I expect that that will probably remain true as I gain more expirience in this field.
           <br />
           <br />
-          Beyond coding, I’ve been happily married to my amazing wife for 20 years, and we have two wonderful teenagers. Together, we love traveling, hiking, and sharing laughs around the dinner table. These moments of connection and adventure fuel my creativity and remind me of the importance of balance and joy in life.
+          Outside of coding I am an avid gamer, fitness enthusiast, and photographer. I love getting lost in a really good story
+          whether it's a movie, book, game, or music! I spend alot of time studying various art disciplines from illistration to
+          story writing to photographing techniques and I drive my beautiful, newly wedded wife, crazy with my creations!
         </p>
 
         {/* Resume Button */}
@@ -41,10 +49,10 @@ const AboutMe: React.FC = () => {
               Skills & Strengths
             </h3>
             <ul className="text-gray-600 space-y-3" aria-label="List of skills and strengths">
-              <li>⚛️ <span className="font-medium">Fullstack Development</span> (React, Rails)</li>
-              <li>📝 <span className="font-medium">TypeScript, JavaScript</span>, Tailwind CSS</li>
+              <li>⚛️ <span className="font-medium">Frontend Development</span> (React, Typescript)</li>
+              <li>📝 <span className="font-medium">JavaScript, Tailwind CSS, Next.JS</span></li>
               <li>🚀 <span className="font-medium">Agile & Team Collaboration</span></li>
-              <li>🔍 <span className="font-medium">Testing</span> (Cypress, RSpec)</li>
+              <li>🔍 <span className="font-medium">Testing</span> (Cypress)</li>
             </ul>
           </div>
 
@@ -53,10 +61,10 @@ const AboutMe: React.FC = () => {
               Personal Highlights
             </h3>
             <ul className="text-gray-600 space-y-3" aria-label="List of personal highlights">
-              <li>🎸 <span className="font-medium">Guitarist</span></li>
-              <li>🧘‍♂️ <span className="font-medium">Meditation Practitioner</span></li>
-              <li>🧗‍♂️ <span className="font-medium">Rock Climber</span></li>
-              <li>♟️ <span className="font-medium">Chess & Strategy Game Fan</span></li>
+              <li>👨‍🏭 <span className="font-medium">Welder</span></li>
+              <li>👨‍🚀 <span className="font-medium">Armchair Astronaut</span></li>
+              <li>👨‍🍳 <span className="font-medium">Cooking (Top 5 Favorite Activities)</span></li>
+              <li>🪖 <span className="font-medium">NV Army Guard Member (Traditional Guardsman)</span></li>
             </ul>
           </div>
         </div>

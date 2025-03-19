@@ -31,7 +31,7 @@ const Contact: React.FC = () => {
   };
 
   return (
-    <section id="contact" className=" bg-sky-100 py-16 px-6" role="region" aria-labelledby="contact-heading">
+    <section id="contact" className=" bg-emerald-100 py-16 px-6" role="region" aria-labelledby="contact-heading">
       <div className="container-standard max-w-6xl mx-auto">
         <h2 id="contact-heading" className=" text-4xl font-extrabold mb-12 text-center text-gray-800">
           Contact Me
@@ -41,32 +41,32 @@ const Contact: React.FC = () => {
           {/* Contact Info Section on the Left */}
           <div className="flex-shrink-0 w-full md:w-[45%] flex flex-col items-center text-center">
             <img
-              src="/assets/jim-macur-headshot.jpeg"
-              alt="Jim Macur"
+              src="/assets/Self Portrait Edit.jpg"
+              alt="Charles Banks"
               className="w-48 h-48 object-cover rounded-full shadow-lg mb-6"
             />
-            <h3 className="text-3xl font-bold text-gray-800 mb-4">Jim Macur</h3>
+            <h3 className="text-3xl font-bold text-gray-800 mb-4">Charles Banks</h3>
 
             <div className="text-gray-700 text-lg space-y-4">
               <div className="flex items-center justify-center md:justify-start">
                 <FaEnvelope className="mr-3 text-blue-500" size={24} aria-hidden="true" />
                 <a
-                  href="mailto:jim.macur@gmail.com"
+                  href="mailto:charlesbanks238@gmail.com"
                   className="font-medium hover:text-blue-500"
-                  aria-label="Email Jim Macur"
+                  aria-label="Email Charles banks"
                 >
-                  jim.macur@gmail.com
+                  charlesbanks238@gmail.com
                 </a>
               </div>
 
               <div className="flex items-center justify-center md:justify-start">
                 <FaLinkedin className="mr-3 text-blue-500" size={24} aria-hidden="true" />
                 <a
-                  href="https://www.linkedin.com/in/jim-macur"
+                  href="https://www.linkedin.com/in/charles-t-banks-jr-6b982b152/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="font-medium hover:text-blue-500"
-                  aria-label="Jim Macur's LinkedIn profile"
+                  aria-label="Charles Banks' LinkedIn profile"
                 >
                   LinkedIn Profile
                 </a>

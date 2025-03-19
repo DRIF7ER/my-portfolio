@@ -4,14 +4,14 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const Welcome: React.FC = () => {
   return (
-    <section id="home" className="bg-sky-300 flex flex-col items-center justify-center  p-4 pt-20 min-h-screen text-center" role="region" aria-labelledby="welcome-heading">
+    <section id="home" className="bg-emerald-500 flex flex-col items-center justify-center  p-4 pt-20 min-h-screen text-center" role="region" aria-labelledby="welcome-heading">
       <div className="container-standard  max-w-4xl">
         <img
           src="/assets/Self Portrait Edit.jpg"
-          alt="Portrait of Jim Macur"
+          alt="Portrait of Charles Banks"
           className="max-w-[300px] h-auto mx-auto rounded-full shadow-lg mb-6 animate-fadeIn"
         />
-        <h1 id="welcome-heading" className="text-5xl font-bold mb-4 text-gray-800 pt-2 animate-fadeIn delay-200">
+        <h1 id="welcome-heading" className="text-5xl font-bold mb-4 text-slate-800 pt-2 animate-fadeIn delay-200">
           Hi, I'm Charles Banks!
         </h1>
 
@@ -36,7 +36,7 @@ const Welcome: React.FC = () => {
           </a>
         </div>
 
-        <div className="text-3xl text-gray-600 max-w-2xl mx-auto mb-6 pb-1 animate-fadeIn delay-800">
+        <div className="text-3xl text-gray-700 max-w-2xl mx-auto mb-6 pb-1 animate-fadeIn delay-800">
           <Typewriter
             options={{
               strings: [

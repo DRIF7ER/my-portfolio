@@ -5,7 +5,7 @@ const Education: React.FC = () => {
   return (
     <section
       id="education"
-      className="flex items-center justify-center bg-sky-400 pt-8 pb-16"
+      className="flex items-center justify-center bg-emerald-400 pt-8 pb-16"
       role="region"
       aria-labelledby="education-heading"
     >
@@ -21,17 +21,32 @@ const Education: React.FC = () => {
             logo="/assets/turing-logo.png"
             institution="Turing School of Software & Design"
             degree="Certificate in Software Engineering"
-            description="An intensive, 1200 hours, seven-month program focused on modern full-stack development technologies and practices, emphasizing collaboration, problem-solving, and agile methodologies."
-            dates="July 2024 - Jan 2025"
+            description="An intensive, 1200 hours, seven-month program focused on modern front end development technologies and practices, emphasizing collaboration, problem-solving, and agile methodologies."
+            dates="March 2024 - Jan 2025"
             highlights={[
-              'Built multiple full-stack applications using React and Rails.',
+              'Built multiple applications using React and Typescript.',
               'Developed skills in TypeScript, JavaScript, and modern CSS frameworks like Tailwind.',
               'Collaborated on agile teams to design and deploy functional web applications.',
-              'Gained proficiency in testing tools like Cypress, RSpec, and Lighthouse.',
+              'Gained proficiency in testing tools like Cypress and Lighthouse.',
               'Focused on accessibility, performance, and best coding practices.',
             ]}
           />
           <EducationCard
+            logo="/assets/tmcc-logo.webp"
+            institution="Truckee Meadows Community College"
+            degree="Associate of Applied Sciences - Welding"
+            description="A two year degree program resulting in proficiency in the safe operation of four major welding processes,
+            ability to identify and interpret technical drawings and print reading techniques, consistent and safe operation of
+            welding equipment, power tools, and accessories in the preformance of welding and joinery."
+            dates="August 2018 - May 2021"
+            highlights={[
+              'Learned horizantal, vertical, and overhead welding techniques as appropriate for SMAW, FCAW, MIG, and GTAW processes.',
+              'Earned AWS Certifications for SMAW, FCAW, and MIG.',
+              '900 hours spent in lab honing welding skills for the four processes mentioned.',
+              'Graduated Summa Cum Laude.'
+            ]}
+          />
+          {/* <EducationCard
             logo="/assets/cudenver-logo.png"
             institution="University of Colorado Denver"
             degree="Teaching Certificate – Urban Community Teacher Education"
@@ -67,7 +82,7 @@ const Education: React.FC = () => {
               'Worked closely with renowned faculty on guitar pedagogy.',
               'Participated in masterclasses and international competitions.',
             ]}
-          />
+          /> */}
         </div>
       </div>
     </section>
